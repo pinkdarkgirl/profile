@@ -92,6 +92,7 @@ body {
 .subtitle-sm {
   font-size: 1.125rem;
   line-height: 1.2;
+  padding-right: 2em;
 }
 
 .subtitle-bg,

@@ -12,7 +12,7 @@ const projects = [
   {
     projectName: "",
     projectImg: profile,
-    projectLink: "https://github.com/pinkdarkgirl/profileUI",
+    projectLink: "https://github.com/pinkdarkgirl/profile",
   },
   { projectName: "2", projectImg: "", projectLink: "." },
   { projectName: "3", projectImg: "", projectLink: "" },
