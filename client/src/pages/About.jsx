@@ -5,7 +5,7 @@ import { faCss3Alt } from "@fortawesome/free-brands-svg-icons";
 import { faJs } from "@fortawesome/free-brands-svg-icons";
 import { faReact } from "@fortawesome/free-brands-svg-icons";
 
-// // About component representing information about me
+// About component representing information about me
 function About() {
   return (
     <div className="about" id="about">

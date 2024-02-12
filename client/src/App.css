@@ -67,7 +67,7 @@ body {
 
 /* nav */
 .logo {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   font-family: "Abril Fatface", serif;
   white-space: nowrap;
 }
@@ -470,9 +470,27 @@ body {
     padding: 2em;
   }
 
+  .title {
+    font-size: 5rem;
+  }
+
   .intro-img {
     min-width: 200px;
     height: auto;
     object-fit: contain;
+  }
+
+  .project-item {
+    height: 16em;
+    width: 30%;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .navlink-container {
+    display: none;
+  }
+  .title {
+    font-size: 4rem;
   }
 }
