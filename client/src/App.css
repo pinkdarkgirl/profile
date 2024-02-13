@@ -242,6 +242,38 @@ body {
 
 /* PROJECTS */
 
+.carousel {
+  background-color: #919bd5;
+  position: relative;
+  padding: 0 0.2em 4em;
+}
+
+.image-slider-container {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+}
+
+.image-slide {
+  width: 70%;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+  animation: slideImage 5s linear infinite;
+}
+
+@keyframes slideImage {
+  0% {
+    transform: translateX(18%);
+  }
+  50% {
+    transform: translateX(30%);
+  }
+  100% {
+    transform: translateX(18%);
+  }
+}
+
 .projects {
   background-color: #919bd5;
 }

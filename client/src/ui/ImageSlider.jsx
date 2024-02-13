@@ -1,8 +1,5 @@
 // image imports
 import text1 from "../assets/text.png";
-// import texta from "../assets/profile.jpeg";
-
-import "./ImageSlider.css";
 
 function ImageSlider() {
   return (
