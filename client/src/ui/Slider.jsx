@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import profile from "../assets/profile-project.png";
 
 // projects data
+//TODO
 const projects = [
   {
     projectName: "",
@@ -37,7 +38,7 @@ function Slider() {
 
   // calculate start and end indices for displaying projects
   const start = currentProject;
-  const end = Math.min(currentProject + 3, projects.length * 2); // so that  end doesn't exceed array length
+  const end = Math.min(currentProject + 3, projects.length * 2); // so that end doesn't exceed array length
 
   // duplicate projects array for smooth looping
   const doubledProjects = [...projects, ...projects];
