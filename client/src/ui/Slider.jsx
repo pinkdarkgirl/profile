@@ -60,8 +60,16 @@ function Slider() {
             target="_blank"
             key={i}
             className="project-item"
-            style={{ backgroundImage: `url(${project.projectImg})` }}
           >
+            <div
+              className="item-after"
+              style={{
+                background:
+                  project.projectImg !== ""
+                    ? `url(${project.projectImg}) left top/cover no-repeat`
+                    : "#fdf2de",
+              }}
+            ></div>
             <h3>{project.projectName}</h3>
           </Link>
         ))}
