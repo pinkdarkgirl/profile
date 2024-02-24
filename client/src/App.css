@@ -462,7 +462,7 @@ body {
 
 .btn:focus,
 .contact-item-input:focus {
-  transform: scale(1.05);
+  transform: scale(102%);
   transition: transform 0.5s ease-in;
 }
 
@@ -635,5 +635,10 @@ body {
 
   .about-skills ul li {
     font-size: 0.75em;
+  }
+
+  .contact-item-input {
+    height: 1.5em;
+    width: 80%;
   }
 }
