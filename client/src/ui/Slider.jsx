@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 // image imports
 import profile from "../assets/profile-project.png";
 import tufanTarim from "../assets/tufan-tarim-project.png";
+import sandbox from "../assets/sandbox.png";
 
 // projects data
 //TODO
@@ -21,7 +22,11 @@ const projects = [
     projectImg: tufanTarim,
     projectLink: "https://github.com/pinkdarkgirl/tufan-tarim",
   },
-  { projectName: "3", projectImg: "", projectLink: "" },
+  {
+    projectName: "3",
+    projectImg: sandbox,
+    projectLink: "https://github.com/pinkdarkgirl/sandbox-clone",
+  },
   { projectName: "4", projectImg: "", projectLink: "" },
   { projectName: "5", projectImg: "", projectLink: "" },
 ];
